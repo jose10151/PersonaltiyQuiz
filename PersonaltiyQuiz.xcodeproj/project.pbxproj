@@ -16,6 +16,10 @@
 		7EC08A2E2BA890F400B1022E /* PersonaltiyQuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC08A2D2BA890F400B1022E /* PersonaltiyQuizTests.swift */; };
 		7EC08A382BA890F400B1022E /* PersonaltiyQuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC08A372BA890F400B1022E /* PersonaltiyQuizUITests.swift */; };
 		7EC08A3A2BA890F400B1022E /* PersonaltiyQuizUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC08A392BA890F400B1022E /* PersonaltiyQuizUITestsLaunchTests.swift */; };
+		7EC08A472BA89EE600B1022E /* QuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC08A462BA89EE600B1022E /* QuestionsViewController.swift */; };
+		7EC08A4B2BA89F1900B1022E /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC08A4A2BA89F1900B1022E /* ResultsViewController.swift */; };
+		7EC08A4D2BA89F2B00B1022E /* IntroductionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC08A4C2BA89F2B00B1022E /* IntroductionViewController.swift */; };
+		7EC08A4F2BAB58DD00B1022E /* Question.file.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC08A4E2BAB58DD00B1022E /* Question.file.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		7EC08A332BA890F400B1022E /* PersonaltiyQuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PersonaltiyQuizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EC08A372BA890F400B1022E /* PersonaltiyQuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonaltiyQuizUITests.swift; sourceTree = "<group>"; };
 		7EC08A392BA890F400B1022E /* PersonaltiyQuizUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonaltiyQuizUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7EC08A462BA89EE600B1022E /* QuestionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsViewController.swift; sourceTree = "<group>"; };
+		7EC08A4A2BA89F1900B1022E /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		7EC08A4C2BA89F2B00B1022E /* IntroductionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionViewController.swift; sourceTree = "<group>"; };
+		7EC08A4E2BAB58DD00B1022E /* Question.file.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.file.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +87,9 @@
 		7EC08A0A2BA890F000B1022E = {
 			isa = PBXGroup;
 			children = (
+				7EC08A462BA89EE600B1022E /* QuestionsViewController.swift */,
+				7EC08A4A2BA89F1900B1022E /* ResultsViewController.swift */,
+				7EC08A4C2BA89F2B00B1022E /* IntroductionViewController.swift */,
 				7EC08A152BA890F000B1022E /* PersonaltiyQuiz */,
 				7EC08A2C2BA890F400B1022E /* PersonaltiyQuizTests */,
 				7EC08A362BA890F400B1022E /* PersonaltiyQuizUITests */,
@@ -103,6 +114,7 @@
 				7EC08A182BA890F000B1022E /* SceneDelegate.swift */,
 				7EC08A1A2BA890F000B1022E /* ViewController.swift */,
 				7EC08A1C2BA890F000B1022E /* Main.storyboard */,
+				7EC08A4E2BAB58DD00B1022E /* Question.file.swift */,
 				7EC08A1F2BA890F400B1022E /* Assets.xcassets */,
 				7EC08A212BA890F400B1022E /* LaunchScreen.storyboard */,
 				7EC08A242BA890F400B1022E /* Info.plist */,
@@ -260,6 +272,10 @@
 			files = (
 				7EC08A1B2BA890F000B1022E /* ViewController.swift in Sources */,
 				7EC08A172BA890F000B1022E /* AppDelegate.swift in Sources */,
+				7EC08A4F2BAB58DD00B1022E /* Question.file.swift in Sources */,
+				7EC08A472BA89EE600B1022E /* QuestionsViewController.swift in Sources */,
+				7EC08A4B2BA89F1900B1022E /* ResultsViewController.swift in Sources */,
+				7EC08A4D2BA89F2B00B1022E /* IntroductionViewController.swift in Sources */,
 				7EC08A192BA890F000B1022E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
